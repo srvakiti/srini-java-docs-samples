@@ -36,7 +36,7 @@ public class HelloworldApplication {
     @GetMapping("/welcome")
     String hello() {
       //return "Hello " + name + "!";
-      return "Welcome to SRINIVAS"!"
+      return "Welcome to Cloud Run SRINIVAS"!"
     }
   }
 
