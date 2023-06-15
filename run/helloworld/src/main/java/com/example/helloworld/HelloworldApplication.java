@@ -33,9 +33,10 @@ public class HelloworldApplication {
 
   @RestController
   class HelloworldController {
-    @GetMapping("/")
+    @GetMapping("/welcome")
     String hello() {
-      return "Hello " + name + "!";
+      //return "Hello " + name + "!";
+      return "Welcome to SRINIVAS"!"
     }
   }
 
